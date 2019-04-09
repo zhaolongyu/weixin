@@ -1,0 +1,14 @@
+<!--pages/cartlist/cartlist.wxml-->
+<view id="body" class="{{hidden}}">
+   <text class="{{hiddentext}}">成功 1秒自动退出</text> 
+</view>
+<view>
+<view class="view-body">
+   <image class="img-top" src="{{datalist.imgUrl}}"></image>
+   <text class="list-item">价格:{{datalist.price}}\n</text>
+   <text class="list-item">title:{{datalist.zname}}</text>
+</view>
+<view>
+   <button type="warn" bindtap="handlejump">购买</button>
+</view>
+</view>

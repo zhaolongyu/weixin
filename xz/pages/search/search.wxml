@@ -1,0 +1,21 @@
+<!--pages/search/search.wxml-->
+<!-- 输入框按钮 -->
+<view class="card">
+  <title class="item-handjump" bindtap="handlejump">返回首页</title>
+  <form bindsubmit='searchProduct'>
+     <view class="cell-item">
+        <input text="text" focus placeholder="请输入商品名称     例如:小新" name="name"></input>
+     </view>
+<view class="cell-item">
+   <button formType='submit'>搜索商品</button>
+</view>
+  </form>
+</view>
+<!-- 搜索结果 -->
+<view class="card" wx:for="{{list}}" wx:key="index">
+   <view class="cell-item">
+     <image src="{{item.imgUrl}}"></image>
+     名称：{{item.zname}}
+     价格：{{item.price}}
+   </view>
+</view>

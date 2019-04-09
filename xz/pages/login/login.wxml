@@ -1,0 +1,15 @@
+<!--pages/login/login.wxml-->
+<text>视频展示</text>
+<view wx:for="{{list}}">
+   <video autoplay object-fit="fill" controls src="{{item.imgUrl}}"></video>
+   <text>商品展示</text>
+   <view class="date-year">
+      <text>欢迎来到戴尔\n</text>
+      <text>距离电脑售卖:{{datayear}}</text>
+      <image class="imag-lists" src="../assets/icons/grid-09.png"></image>
+   </view>
+   <view wx:for="{{img}}" wx:key="{{index}}">
+   <text class="ling-title">{{item.title}}</text>
+   <image class="img-list" src="{{item.imgUrl}}"></image>
+   </view>
+</view>

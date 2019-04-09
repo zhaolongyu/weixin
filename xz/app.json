@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shoplist/shoplist",
+    "pages/cartlist/cartlist",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#afa",
+    "navigationBarTitleText": "戴尔商城",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,16 @@
+
+<view class="shop"  wx:for="{{rows}}" wx:key="{{index}}" >
+   <!-- 图片 -->
+  <image src="{{item.imgUrl}}" bindtap="handlejump" data-id="{{item.id}}"  class="shop-img"></image>
+  <!-- 文字介绍 -->
+  <view class="shop-info" bindtap="handlejump">
+    <text data-id="{{item.id}}" class="shop-title">title:{{item.zname}}</text>
+    <text data-id="{{item.id}}" class="shop-tel">价格: {{item.price}}</text>
+    <text data-id="{{item.id}}" class="shop-address">详情: {{item.title}}</text>
+  </view>
+  <!-- 打分 -->
+  <view class="shop-star">
+    <view class="stat-after">★★★★★</view>
+    <view class="star-before">★★★★★</view>
+  </view>
+</view>

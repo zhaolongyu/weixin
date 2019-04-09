@@ -1,0 +1,24 @@
+/* pages/login/login.wxss */
+video{
+  width:100%;
+}
+image.img-list{
+  width:100%;height:1000px;
+}
+.imag-lists{
+  width:100px;
+  height:100px;
+  margin:20px;
+}
+.ling-title{
+  font-size:32px;
+  color:#00f;
+  margin-left:5rem;
+}
+.date-year{
+  height:300px;
+  width:300px;
+  font-size:30px;
+  font-weight:400;
+  background:rgba(190, 43, 32 ,0.1);
+}
